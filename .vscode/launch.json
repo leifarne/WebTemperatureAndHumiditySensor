@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "name": "PlatformIO Debugger",
+            "target": "c:/Users/leif.arne.rones/Documents/PlatformIO/Projects/WebTemperatureAndHumiditySensor/.pioenvs/nodemcu/firmware.elf",
+            "gdbpath": "C:/Users/leif.arne.rones/.platformio/penv/Scripts/piodebuggdb",
+            "autorun": [ "source .pioinit" ]
+        }
+    ]
+}
